@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <title>Ninesweeper Game</title>  
+      <meta charset="utf-8">
+      <meta name="Description" content="A Minesweeper game called Ninesweeper.  Avoid the 9's.">
+      <meta name="Keywords" content="minesweeper, Ninesweeper, mines, game, javascript, html5, logic game, canvase, fun">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   
+   <body>
+      <header> 
+          <h1 id="head">Ninesweeper Game</h1>
+          <br>
+          <p><img src="images/nine-200.png" alt="Nnesweeper"></p>
+      </header> 
+      
+      <h1 id="result"></h1>
+      
+      <section id="game">
+          <div id="nine">
+              <canvas id="canvas1" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas2" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas3" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas4" width="100" height="100" oncontextmenu="return false;"></canvas><br/>
+
+              <canvas id="canvas5" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas6" width="100" height="100" oncontextmenu="return false;"></canvas>              
+              <canvas id="canvas7" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas8" width="100" height="100" oncontextmenu="return false;"></canvas><br/>
+
+              <canvas id="canvas9" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas10" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas11" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas12" width="100" height="100" oncontextmenu="return false;"></canvas></br>
+
+              <canvas id="canvas13" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas14" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas15" width="100" height="100" oncontextmenu="return false;"></canvas>
+              <canvas id="canvas16" width="100" height="100" oncontextmenu="return false;"></canvas>
+              
+              <center><button id="new">New Game</button></center>
+          </div>
+          <div id="rules">
+              <h2>Rules</h2>
+              <p>This game is similar to Minesweeper.</p>
+              <p>Click on squares to clear the entire field.</p>
+              <p>Squares reveal number of adjacent 9's.</p>
+              <p>Right click on a square to Flag it as a 9.</p>
+              <p>Avoid the 9's.</p>
+          </div>
+      </section>
+      <br>
+      <br>
+      <div id="footer">
+          <p><a href="https://rachenaart.com/">Home</a> | <a href="../">Games</a> | <a href="https://rachenaart.com/rng">Names</a> |
+              <a href="../wordsplash">Memes</a>
+          <h3>@2021 - www.rachenaart.com</h3>
+      </div>
+      <script src="script.js"></script>
+   </body>
+    
+</html>
